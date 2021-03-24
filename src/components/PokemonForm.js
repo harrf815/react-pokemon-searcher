@@ -2,6 +2,20 @@ import React from 'react'
 import { Form } from 'semantic-ui-react'
 
 class PokemonForm extends React.Component {
+
+  state = {
+    name: '',
+    hp: '',
+    frontUrl: '',
+    backUrl: ''
+  }
+
+  handleChange = e => {
+
+  }
+  }
+
+
   render() {
     return (
       <div>
